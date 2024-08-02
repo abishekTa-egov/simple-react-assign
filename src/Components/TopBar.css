@@ -1,0 +1,42 @@
+/* TopBar.css */
+.top-bar-body {
+    background-color: #483f3f; /* Dark background for a sleek look */
+    color: #f0f0f0; /* Light text color for contrast */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    height: 100px;
+}
+
+.top-bar-items {
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    height: 20px; /* Adjust the size of the logo */
+   
+    margin-right: 15px;
+}
+
+.items-list {
+    display: flex;
+    align-items: center;
+}
+
+.items {
+    margin-left: 20px;
+}
+
+.items p {
+    font-size: 1.2em; /* Slightly larger text */
+    font-weight: bold;
+    color: #ff6f61; /* Accent color for text */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.items p:hover {
+    color: #ffa69e; /* Hover effect color */
+}
